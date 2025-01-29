@@ -23,7 +23,7 @@ python3 main.py
 
 To run a command, you can add it as a parameter in the URL, along with a basic username and password authentication, here's an example curl:
 
-curl -u admin:password -X GET -i http://localhost:5000/?command=ls -la
+curl -u admin: password -X GET -i http://localhost:2000/?command=ls -la
 
 If the command runs successfully, you will see the command output in the browser. If an error occurs, you will see an error message.
 
